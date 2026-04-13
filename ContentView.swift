@@ -24,7 +24,7 @@ struct ContentView: View {
             amount = 0
         }
         Button {
-            upgradeCount += 1
+            upgradeCount += 100
             amount -= 1000
         } label: {
             Text("Upgrade")
