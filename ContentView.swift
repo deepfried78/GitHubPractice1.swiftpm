@@ -6,6 +6,11 @@ struct ContentView: View {
     var body: some View {
         Text("\(amount)")
         Button {
+            if (upgradeCount == 0)
+            {
+                amount += 1
+                return
+            }
             amount += 1 * upgradeCount
         } label: {
             Circle()
