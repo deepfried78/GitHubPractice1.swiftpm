@@ -23,5 +23,13 @@ struct ContentView: View {
         Button("reset"){
             amount = 0
         }
+        Button {
+            upgradeCount += 1
+            amount -= 1000
+        } label: {
+            Text("Upgrade")
+            Capsule()
+                .frame(width: 200, height: 100)
+        }
     }
 }
