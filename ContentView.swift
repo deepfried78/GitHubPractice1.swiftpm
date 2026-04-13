@@ -12,7 +12,7 @@ struct ContentView: View {
                 .frame(width: 100, height: 100)
         }
         Button {
-            upgradeCount += 2
+            upgradeCount += 1
             amount -= 10
         } label: {
             Text("Upgrade")
