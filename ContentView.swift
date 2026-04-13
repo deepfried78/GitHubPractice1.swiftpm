@@ -6,7 +6,7 @@ struct ContentView: View {
     var body: some View {
         Text("\(amount)")
         Button {
-            if (upgradeCount == 0)
+            if (upgradeCount <= 1)
             {
                 amount += 1
                 return
