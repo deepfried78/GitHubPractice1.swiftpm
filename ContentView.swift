@@ -12,15 +12,12 @@ struct ContentView: View {
                 .frame(width: 100, height: 100)
         }
         Button {
-            upgradeCount += 1
+            upgradeCount += 2
             amount -= 10
         } label: {
             Text("Upgrade")
             Rectangle()
                 .frame(width: 200, height: 100)
-        }
-        Button("Reset"){
-            amount = 0
         }
     }
 }
