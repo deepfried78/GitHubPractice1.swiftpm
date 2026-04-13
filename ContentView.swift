@@ -19,5 +19,8 @@ struct ContentView: View {
             Rectangle()
                 .frame(width: 200, height: 100)
         }
+        Button("reset"){
+            amount = 0
+        }
     }
 }
