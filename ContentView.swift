@@ -10,6 +10,7 @@ struct ContentView: View {
         } label: {
             Circle()
                 .frame(width: 100, height: 100)
+                .foregroundStyle(.red)
         }
         Button {
             upgradeCount += 1
